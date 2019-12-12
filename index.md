@@ -14,19 +14,30 @@ The key features of RMCM-Verifier are:
 
 RMCM-Verifier has been successfully evaluated on an industrial case study.
 
-#
+##Overview
 
+The process in the figure below describes our approach which is composed of 4 steps. ![RMCM steps](RMCM.png)
+
+* Step 1, "Elicit requirements as use cases, security use cases and misuse cases": the analyst elicits functional and security requirements relying on a misuse case diagram and the RMCM template.
+
+* Step 2, "Check conformance for diagram and specifications": our tool RMCM-Verifier automatically checks the consistency between the misuse case diagram and specifications, and between the specifications and the RMCM template. If there is any inconsistency, the analyst updates the diagram or specifications (Step 1).
+
+* Step 3, "Elicit mitigation schemes for misuse cases": mitigation schemes are elicited for the security threats specified in misuse cases.
+
+* Step 4, "Check conformance for mitigation schemes": RMCM-Verifier automatically checks whether the mitigation schemes conform to the mitigation template.
+
+
+
+##Download, Installation and sample artifacts
 
 
 To install and run RMCM-Verifier please:
 
-1. Download the installation package and sample artifacts: RMCM_Distro
+1. Download the installation package and sample artifacts: [RMCM_Distro](https://dropit.uni.lu/invitations?share=e07585bb2a55e568bcaf&dl=0)
 
-2. Follow user manual: RMCM_Verifier_UserManual
+2. Follow user manual: [RMCM_Verifier_UserManual](https://dropit.uni.lu/invitations?share=f813821ffd59bb2ca66b&dl=0)
 
 3. Results after checking conformance between Misuse Case Specifications with RMCM Template and between Misuse Case Specifications with Misuse Case Diagram:
-
-   a. Inconsistencies between Misuse Case Specifications with RMCM Template are stored in unknownstep.html file. (This file is located at C:/EDLAH2/RMCM/result/)
-
-   b. Inconsistencies between Misuse Case Specifications with Misuse Case Diagram are stored in MisuseCaseAnalysis.html file. (This file is at C:/EDLAH2/RMCM/result/misusecases/)
+..1. Inconsistencies between Misuse Case Specifications with RMCM Template are stored in [unknownstep.html](https://dropit.uni.lu/invitations?share=d50c349fb1265a49ab19&dl=0) file. (This file is located at C:/EDLAH2/RMCM/result/)
+..2. Inconsistencies between Misuse Case Specifications with Misuse Case Diagram are stored in [MisuseCaseAnalysis.html](https://dropit.uni.lu/invitations?share=bfd15a52e9f72f59752e&dl=0) file. (This file is at C:/EDLAH2/RMCM/result/misusecases/)
 
