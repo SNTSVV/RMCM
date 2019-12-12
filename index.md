@@ -18,6 +18,8 @@ RMCM-Verifier has been successfully evaluated on an industrial case study.
 
 The process in the figure below describes our approach which is composed of 4 steps. ![RMCM steps](RMCM.png)
 
+<img src="RMCM.png" alt="RMCM Verifier Workflow" width="200" height="380" border="10" />
+
 * Step 1, "Elicit requirements as use cases, security use cases and misuse cases": the analyst elicits functional and security requirements relying on a misuse case diagram and the RMCM template.
 
 * Step 2, "Check conformance for diagram and specifications": our tool RMCM-Verifier automatically checks the consistency between the misuse case diagram and specifications, and between the specifications and the RMCM template. If there is any inconsistency, the analyst updates the diagram or specifications (Step 1).
@@ -30,7 +32,13 @@ The process in the figure below describes our approach which is composed of 4 st
 
 ## Download, Installation and sample artifacts
 
+### System Requirements
+RMCM-Verifier is compatible with Windows 7 or higher. It requires:
+  * Java Runtime Environment (JRE) 1.7_0.55 [Download](http://www.oracle.com/technetwork/java/java-archive-downloads-javase7-521261.html)
+  * GATE Framework 7.1 release [Download](http://gate.ac.uk/download/)
+  * Telelogic DOORS 8.3
 
+### Installation
 To install and run RMCM-Verifier please:
 
 1. Download the installation package and sample artifacts: [RMCM_Distro](https://dropit.uni.lu/invitations?share=e07585bb2a55e568bcaf&dl=0)
