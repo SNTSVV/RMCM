@@ -14,7 +14,7 @@ The key features of RMCM-Verifier are:
 
 RMCM-Verifier has been successfully evaluated on an industrial case study.
 
-##Overview
+## Workflow
 
 The process in the figure below describes our approach which is composed of 4 steps. ![RMCM steps](RMCM.png)
 
@@ -28,7 +28,7 @@ The process in the figure below describes our approach which is composed of 4 st
 
 
 
-##Download, Installation and sample artifacts
+## Download, Installation and sample artifacts
 
 
 To install and run RMCM-Verifier please:
