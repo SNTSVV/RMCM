@@ -1,4 +1,6 @@
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=KL3t_x7TACo" target="_blank"><img src="http://img.youtube.com/vi/KL3t_x7TACo/0.jpg" alt="RMCM Verifier Demo" width="240" height="180" border="10" /></a>
 
+https://www.youtube.com/watch?v=
 
 ## Overview 
 
