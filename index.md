@@ -16,9 +16,9 @@ RMCM-Verifier has been successfully evaluated on an industrial case study.
 
 ## Workflow
 
-The process in the figure below describes our approach which is composed of 4 steps. ![RMCM steps](RMCM.png)
+The process in the figure below describes our approach which is composed of 4 steps. 
 
-<img src="RMCM.png" alt="RMCM Verifier Workflow" width="200" height="380" border="10" />
+<img src="RMCM.png" alt="RMCM Verifier Workflow" width="313" height="892" border="10" />
 
 * Step 1, "Elicit requirements as use cases, security use cases and misuse cases": the analyst elicits functional and security requirements relying on a misuse case diagram and the RMCM template.
 
